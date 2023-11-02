@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(209, 244, 226);
+}
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
+.form{
+    width: 90%;
+    height: 250px;
+    margin: 57px auto;
+    margin-bottom: 20px;
+    padding: 20px 0;
+    border-radius: 20px;
+    background-color: #70e49d;
+}
+.form .select{
+    display: flex;
+    padding: 17px 20px;
+}
+.form .select p{
+    position: relative;
+    left: 10px;
+    font-weight: bold;
+}
+.form .select input{
+   width: 250px;
+   height: 40px;
+   border-radius: 10px;
+   padding-left: 10px;
+   background-color: rgb(228, 242, 237);
+}
+#journey_class{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(228, 242, 237);
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.form .from, .form .to, .form .date, .form .class {
+    margin: 0 10px;
+    padding: 20px;
+    width: 265px;
+    border-radius: 20px;
+    background-color: rgb(228, 228, 240);
+}
+#journey_class option{
+    margin: 0 10px;
+    padding: 20px;
+    border: 2px solid black;
+    width: 250px;
+    border-radius: 20px;
+}
+.form_radio{
+    display: flex;
+    margin: 5px 10px;
+    padding: 0 15px;
+}
+.form_radio input{
+    padding: 10px;
+}
+.btn button{
+    height: 40px;
+    width: 200px;
+    background-color: rgb(60, 203, 203);
+    border-radius: 10px;
+    color: white;
+    position: relative;
+    left: 570px;
+    top: 20px;
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+}
+ul li:hover{
+    cursor: pointer;
+}
+.main_body .irctc{
+    display: inline-flex;
+    align-items: center;
+    font-family: cursive;
+    position: relative;
+    left: 600px;
+}
+.main_body .irctc img{
+    padding: 5px 20px;
+}
+.offers p{
+    font-size: 30px;
+    font-family: cursive;
+    position: relative;
+    left: 500px;
+    display: inline-block;
+    text-align: center;
+}
+.rating{
+    margin: 30px;
+    padding: 30px 60px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 5px;
+    transition: 1s;
+}
+.rating:hover{
+    transform: scale(1.02);
+}
+#downloads , #bookings , #refunds , #predictions , #meals {
+    font-family: cursive;
+    border-radius: 10px;
+    transition: 1.5s;
+}
+#downloads:hover, #bookings:hover, #refunds:hover, #predictions:hover, #meals:hover{
+    cursor: pointer;
+    transform: scale(1.4);
+    background-color: rgb(233, 224, 224);
+}
+.rating img{
+    width: 30px;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 15px;
+}
+.offers{
+    background: white;
+    margin: 10px 30px;
+    border-radius: 10px;
+    height: 350px;
+    padding: 0 30px;
+    transition: 2s;
+}
+.offers:hover{
+    transform: scale(1.01);
+}
+.offer_images{
+    display: flex;
+    margin: 45px 0;
+    justify-content:space-evenly;
+    transition: 7s;
+}
+#independence_day img, #pujo img, #paytm img{
+    width: 350px;
+    height: 200px;
+    margin: 0 90px;
+    border-radius: 30px;
+}
+.offers img{
+    transition: 2s;
+}
+.offers img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.why{
+    background: #9fd9b5;
+    width: 800px;
+    height: 375px;
+    font-family: cursive;
+    text-align: center;
+    border-radius: 30px;
+    margin: 30px auto;
+}
+.why_class{
+    background-color: #7b7bd5;
+    height: 420px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    padding: 30px 0;
+    border-radius: 30px;
+}
+.why table{
+   display: flex;
+   justify-content: center;
+    margin: 20px;
+    padding: 10px;
+    border-spacing: 0 10px;
+}
+table td, th{
+    margin: 0 20px;
+    width: 250px;
+    height: 30px;
+}
+table td:nth-child(even){
+    background-color: rgb(218, 248, 248);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+table td:nth-child(odd){
+    background-color: rgb(118, 156, 156);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.why h2{
+    padding-top: 20px;
+}
+.destinations{
+    width: 90%;
+    height: 700px;
+}
+
+.destinations img{
+    width: 500px;
+    transition: 1.1s;
+}
+.destinations img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#kolkata{
+    width: 500px;
+    height: 320px;
+    object-fit: cover;
+}
+#kolkata img{
+    height: 388px;
+    width: 500px;
+    border-radius: 5px;
+}
+#varanasi img, #mumbai img, #delhi img, #bangalore img, #jaipur img{
+    height: 175px;
+    width: 300px;
+    border-radius: 5px;
+}
+#kolkata p, #varanasi p, #mumbai p, #delhi p, #bangalore p{
+    position: relative;
+    top: -50px;
+    left: 10px;
+    font-size: 30px;
+    color: white;
+}
+.vm{
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+}
+.db{
+    flex-direction: column;
+}
+.kolkata{
+    display: flex;
+}
+.k_vm_db{
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    margin: 10px 50px;
+    justify-content: space-around;
+    padding: 30px 90px;
+}
+.form .btn{
+    transition: 1.1s;
+}
+.form .btn:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.offers .para{
+    font-size: 20px;
+    position: relative;
+    left: 100px;
+}
+.destinations h1{
+    font-family: cursive;
+    margin: 72px 0 0px 200px;   
+}
+.destinations{
+    margin: 50px auto;
+    padding: 10px;
+    background-color: #bfbffc;
+    border-radius: 30px;
+}

@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
+.form{
+    width: 90%;
+    height: 250px;
+    margin: auto;
+    border-radius: 20px;
+}
+.form .select{
+    display: flex;
+    padding: 10px 50px;
+}
+.form .select p{
+    position: relative;
+    left: 10px;
+}
+.form .select input{
+   width: 200px;
+   height: 40px;
+   border-radius: 10px;
+   padding-left: 10px;
+}
+.form .from{
+    margin: 0 10px;
+    padding: 20px;
+    width: 250px;
+    border-radius: 20px;
+
+}
+.form .to{
+    margin: 0 10px;
+    padding: 20px;
+    width: 250px;
+    border-radius: 20px;
+
+}
+.form .date{
+    margin: 0 10px;
+    padding: 20px;
+    width: 250px;
+    border-radius: 20px;
+}
+.form .class{
+    margin: 0 10px;
+    padding: 20px;
+    width: 250px;
+    border-radius: 20px;
+
+}
+.form_radio{
+    display: flex;
+    margin: 5px 10px;
+    padding: 0 15px;
+}
+.form_radio input{
+    padding: 10px;
+}
+.btn button{
+    height: 40px;
+    width: 200px;
+    background-color: rgb(60, 203, 203);
+    border-radius: 10px;
+    color: white;
+    position: relative;
+    left: 570px;
+}
+button:hover{
+    cursor: pointer;
+}

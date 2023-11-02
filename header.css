@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(90, 179, 149);
+    position: sticky;
+}
+.navbar_class{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    position: relative;
+    top: 30px;
+    border-radius: 10px;
+}
+.navbar ul{
+    position: relative;
+}
+.navbar_class li a{
+    text-decoration: none;
+    margin: 10px 10px;
+    padding: 0 10px;
+    transition: 1.001s;
+    height: 90px;
+    border-radius: 10px;
+    color: white;
+}
+.navbar_class li a:hover{
+    background-color: rgb(185, 177, 177);
+    transform: scale(1.2);
+}

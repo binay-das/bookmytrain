@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.check_pnr{
+    margin: 50px 40px;
+    padding: 40px 20px;
+    border-radius: 30px;
+    background-color: rgb(197, 235, 190);
+    height: 300px;
+    align-items: center;
+    transition: 1.5s;
+}
+.check_pnr:hover{
+    transform: scale(1.1);
+}
+.check_pnr input{
+    height: 100px;
+    width: 800px;
+    margin: 20px 0;
+    padding-left: 30px;
+    font-size: 30px;
+    border-radius: 10px;
+    transition: 1.5s;
+}
+.check_pnr form{
+    display: flex;
+    justify-content: center;
+}
+form{
+    position: relative;
+    top: 50px;
+}
+.check_pnr button{
+    width: 300px ;
+    margin: 20px 10px;
+    font-size: 25px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(146, 246, 167);
+    font-family: cursive;
+    transition: 1.5s;
+}
+.check_pnr h2{
+    margin-left: 120px;
+    font-size: 30px;
+    position: relative;
+    top: 15px;
+    font-style: italic;
+}
+form input:hover{
+    transform: scale(1.1);
+}
+form button:hover{
+    transform: scale(1.1);
+}

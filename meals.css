@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: wheat;
+}
+.meals h2{
+    margin: 20px 40px;
+    font-size: 40px;
+    font-style: italic;
+}
+.meals p{
+    font-size: 20px;
+    margin: 30px 50px;
+}
+.meals-class{
+    border-radius: 20px;
+    display: flex;
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #4c696a;
+}
+.meals-class p{
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 15px;
+    margin: 5px;
+    font-family: cursive;
+}
+.dishes, .cold-drinks, .add-ons{
+    border-radius: 20px;
+    width: 100%;
+    height: 90px;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #acb9d6;
+}
+#dishes, #cold-drinks, #add-ons{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(164, 164, 235);
+    border-radius: 15px;
+    padding: 0 10px;
+    transition: 0.5s;
+}
+#dishes:hover, #cold-drinks:hover, #add-ons:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
